@@ -52,87 +52,87 @@
 
 # ---- Conditionals in Python ---- #
 
-light = "green"
+# light = "green"
 
-if(light == "red") : 
-    print("Stop") # indentation
-elif(light == "yellow"):
-    print('Wating')
-elif(light == "green") : 
-    print("Go")
-else :
-    print("Light is broken")
+# if(light == "red") : 
+#     print("Stop") # indentation
+# elif(light == "yellow"):
+#     print('Wating')
+# elif(light == "green") : 
+#     print("Go")
+# else :
+#     print("Light is broken")
 
-# ---- Practices 1 ---- #
-# Grade students based on marks
-# I try to write the code 
-marks = 96
+# # ---- Practices 1 ---- #
+# # Grade students based on marks
+# # I try to write the code 
+# marks = 96
 
-if(marks <= 70): 
-    print("Your grade is 'D' ")
-elif(marks <= 80):
-    print("Your grade is 'C' ")
-elif(marks <= 90):
-    print("Your grade is 'B' ")
-elif(marks <= 100):
-    print("Your grade is 'A' ")
+# if(marks <= 70): 
+#     print("Your grade is 'D' ")
+# elif(marks <= 80):
+#     print("Your grade is 'C' ")
+# elif(marks <= 90):
+#     print("Your grade is 'B' ")
+# elif(marks <= 100):
+#     print("Your grade is 'A' ")
 
-# the code writen by apna collage 
-marks2 = 80
+# # the code writen by apna collage 
+# marks2 = 80
 
-if(marks2 >= 90): 
-    grade = "A"
-elif(marks2 >= 80 and marks2 < 90): 
-    grade = "B"
-elif(marks2 >= 70 and marks2 < 80): 
-    grade = "C"
-else:
-    grade = "D"
+# if(marks2 >= 90): 
+#     grade = "A"
+# elif(marks2 >= 80 and marks2 < 90): 
+#     grade = "B"
+# elif(marks2 >= 70 and marks2 < 80): 
+#     grade = "C"
+# else:
+#     grade = "D"
 
-print("The student grade is:", grade)
+# print("The student grade is:", grade)
 
-# ---- nesting in python ---- #
+# # ---- nesting in python ---- #
 
-age = 81
+# age = 81
 
-if(age >= 18):
-    if(age >= 80):
-        print("You cannot drive")
-    else:
-        print("You can drive")
-else:
-    print("children can't drive car")
+# if(age >= 18):
+#     if(age >= 80):
+#         print("You cannot drive")
+#     else:
+#         print("You can drive")
+# else:
+#     print("children can't drive car")
 
-## ---- practices 2 ---- ##
-# Check if a number entered by the user is odd or even
-num = 6
+# ## ---- practices 2 ---- ##
+# # Check if a number entered by the user is odd or even
+# num = 6
 
-if(num % 2 == 0):
-    print("The number is even")
-else:
-    print("The number is odd")
+# if(num % 2 == 0):
+#     print("The number is even")
+# else:
+#     print("The number is odd")
 
 
-## ---- practices 2 ---- ##
-# Find the greatest of 3 number entered by the user
+# ## ---- practices 2 ---- ##
+# # Find the greatest of 3 number entered by the user
 
-a= 27
-b= 29
-c=10
+# a= 27
+# b= 29
+# c=10
 
-if(a >= b and a > c):
-    print("The greatest number is: a", a)
-elif(b >= c) :
-    print("The greatest number is: b", b)
-else:
-    print("The greatest number is: c",c)
+# if(a >= b and a > c):
+#     print("The greatest number is: a", a)
+# elif(b >= c) :
+#     print("The greatest number is: b", b)
+# else:
+#     print("The greatest number is: c",c)
 
-## ---- practices 3 ---- ##
-# Check if a number is a multiple of 7 or not
+# ## ---- practices 3 ---- ##
+# # Check if a number is a multiple of 7 or not
 
-number = 14
+# number = 14
 
-if(number % 7 == 0):
-    print("The number is multiple of 7", number)
-else:
-    print('The number id not multiple of 7', number)
+# if(number % 7 == 0):
+#     print("The number is multiple of 7", number)
+# else:
+#     print('The number id not multiple of 7', number)
