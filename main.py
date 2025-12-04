@@ -171,12 +171,21 @@ listStr.sort(reverse=True) # output is litchi,banana,apple
 print(listStr)
 
 ## ----- practice ---- ##
-userinput = 'avengers spiderman superman'
+userinput = input("Enter the name of your favorite 3 movies: ")
 splitInput = userinput.split()
 listOfMovies = splitInput
 print(listOfMovies)
 print(type(listOfMovies))
 
+## ---- Dectionary in python ---- ##
+
+students = {
+    'name' : 'Muhammad Rabbi',
+    "departments": "Computer scinces & technology",
+    "number": "01329335954",
+    "email": "muhammedrabbi.dev@gmail.com"
+}
+print(students["departments"], students['email'])
 
 
 
