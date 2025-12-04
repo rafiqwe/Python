@@ -152,6 +152,17 @@
 # print(x[0:2]) # output [85,89]
 # print(x[1: ]) # output [89,34,23,22]
 
+## ----- List Methods ---- ##
+
+list = [5,2,3,1]
+list.append(4)
+list.sort() # output 1,2,3,4,5
+list.sort(reverse=True) # output 5,4,3,2,1
+list.reverse()
+list.insert(2,10)
+list.remove(10) # removes first occurrence of element 
+list.pop(1) # removes element at index
+print(list)
 
 
 
