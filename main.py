@@ -164,6 +164,18 @@ list.remove(10) # removes first occurrence of element
 list.pop(1) # removes element at index
 print(list)
 
+# we can also sort in list of string 
+listStr = ['banana', "litchi", "apple"]
+listStr.sort() # output is apple, banana, litchi
+listStr.sort(reverse=True) # output is litchi,banana,apple
+print(listStr)
+
+## ----- practice ---- ##
+userinput = 'avengers spiderman superman'
+splitInput = userinput.split()
+listOfMovies = splitInput
+print(listOfMovies)
+print(type(listOfMovies))
 
 
 
