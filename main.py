@@ -136,3 +136,26 @@
 #     print("The number is multiple of 7", number)
 # else:
 #     print('The number id not multiple of 7', number)
+
+
+### ---- List & Tuple in python ---- ##
+
+# marks = [34,32,41,23,43,14]
+# student = ['rabbi', 40, 98.55, 'Hello']
+# print(marks)
+
+
+# # ## ---- Slicing of list in python ----- ##
+
+# x = [85,89,34,23,22]
+# print(x[ : 4]) # output [85,89,34,23]
+# print(x[0:2]) # output [85,89]
+# print(x[1: ]) # output [89,34,23,22]
+
+
+
+
+
+
+
+
