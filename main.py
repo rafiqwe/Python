@@ -154,21 +154,21 @@
 
 ## ----- List Methods ---- ##
 
-list = [5,2,3,1]
-list.append(4)
-list.sort() # output 1,2,3,4,5
-list.sort(reverse=True) # output 5,4,3,2,1
-list.reverse()
-list.insert(2,10)
-list.remove(10) # removes first occurrence of element 
-list.pop(1) # removes element at index
-print(list)
+# list = [5,2,3,1]
+# list.append(4)
+# list.sort() # output 1,2,3,4,5
+# list.sort(reverse=True) # output 5,4,3,2,1
+# list.reverse()
+# list.insert(2,10)
+# list.remove(10) # removes first occurrence of element 
+# list.pop(1) # removes element at index
+# print(list)
 
-# we can also sort in list of string 
-listStr = ['banana', "litchi", "apple"]
-listStr.sort() # output is apple, banana, litchi
-listStr.sort(reverse=True) # output is litchi,banana,apple
-print(listStr)
+# # we can also sort in list of string 
+# listStr = ['banana', "litchi", "apple"]
+# listStr.sort() # output is apple, banana, litchi
+# listStr.sort(reverse=True) # output is litchi,banana,apple
+# print(listStr)
 
 ## ----- practice ---- ##
 userinput = input("Enter the name of your favorite 3 movies: ")
