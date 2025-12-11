@@ -171,11 +171,11 @@
 # print(listStr)
 
 ## ----- practice ---- ##
-userinput = input("Enter the name of your favorite 3 movies: ")
-splitInput = userinput.split()
-listOfMovies = splitInput
-print(listOfMovies)
-print(type(listOfMovies))
+# userinput = input("Enter the name of your favorite 3 movies: ")
+# splitInput = userinput.split()
+# listOfMovies = splitInput
+# print(listOfMovies)
+# print(type(listOfMovies))
 
 ## ---- Dectionary in python ---- ##
 
