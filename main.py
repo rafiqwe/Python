@@ -190,13 +190,13 @@
 
 ## Practice List in python
 
-movieList = []
-movie1 = input("Enter the name of movie1:")
-movie2 = input("Enter the name of movie2:")
-movie3 = input("Enter the name of movie3:")
-movieList.extend([movie1,movie2,movie3])
-movieList.sort()
-print(movieList)
+# movieList = []
+# movie1 = input("Enter the name of movie1:")
+# movie2 = input("Enter the name of movie2:")
+# movie3 = input("Enter the name of movie3:")
+# movieList.extend([movie1,movie2,movie3])
+# movieList.sort()
+# print(movieList)
 
 
 ## Practice palindrome in python
