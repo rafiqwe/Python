@@ -179,13 +179,13 @@
 
 ## ---- Dectionary in python ---- ##
 
-students = {
-    'name' : 'Muhammad Rabbi',
-    "departments": "Computer scinces & technology",
-    "number": "01329335954",
-    "email": "muhammedrabbi.dev@gmail.com"
-}
-print(students["departments"], students['email'])
+# students = {
+#     'name' : 'Muhammad Rabbi',
+#     "departments": "Computer scinces & technology",
+#     "number": "01329335954",
+#     "email": "muhammedrabbi.dev@gmail.com"
+# }
+# print(students["departments"], students['email'])
 
 
 ## Practice List in python
